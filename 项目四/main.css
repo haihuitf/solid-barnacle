@@ -101,7 +101,7 @@ main{
 }
 .article-list{
 	margin-top: 1px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
 }
 .article-item{
@@ -251,4 +251,19 @@ aside{
 	font-size: 12px;
 	color: #858585;
 	line-height: 20px;
+}
+.newcomment-list li{
+	margin-top: 8px;
+}
+
+.text-truncate{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.comment{
+	font-size: 12px;
+	color: #858585;
+	line-height: 20px;
+	word-break: break-all;
 }
