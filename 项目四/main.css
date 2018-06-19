@@ -136,6 +136,12 @@ main{
 	box-sizing: inherit;
 	margin: auto;
 }
+.align-content-center{
+	align-content: center !important;
+}
+.info-box p{
+	margin-right: 24px;
+}
 /*.info-box .date{
 	float: left;
 }
